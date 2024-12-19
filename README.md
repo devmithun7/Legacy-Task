@@ -64,16 +64,4 @@ This repository contains the implementation of a project analyzing mental health
 
 ---
 
-## How to Use
-1. **Data Profiling**:
-   - Navigate to the `data_profiling` folder and run the provided scripts/notebooks to generate detailed data profiling reports.
-
-2. **Machine Learning Models**:
-   - Access the `machine_learning_models` folder for model training and evaluation scripts.
-   - Ensure the necessary libraries are installed by referring to `requirements.txt`.
-
-3. **Web Application**:
-   - Deploy the web application by running the Streamlit script provided in the repository.
-
----
 
