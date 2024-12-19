@@ -20,35 +20,33 @@ This repository contains the implementation of a project analyzing mental health
 - **Files**: The corresponding notebooks for these steps are available in the Airflow and Machine Learning Model folders.
 
 ### 3. **Machine Learning Models**
-- Folder: `machine_learning_models`
-- **Description**: Two machine learning models were built to infer useful insights from the dataset:
-  1. **Classification Model 1**: Predicts the mental disorder of a person based on counseling transcripts using advanced natural language processing (NLP) techniques and machine learning algorithms.
-     - Classes:
-       - Bipolar Type-2
-       - Depression
-       - Normal
-       - Bipolar Type-1
-     - **Workflow**:
-       - Preprocessing: Tokenization, text cleaning, and feature extraction (TF-IDF or embeddings).
-       - Modeling: Trained using algorithms such as Logistic Regression, Random Forest, or Neural Networks.
-       - Evaluation: Performance metrics include accuracy, precision, recall, and F1-score.
-      
-         
-  2. **Classification Model 2**: Predicts the mood swings of a person using supervised machine learning techniques.
-     - Classes:
-       - High
-       - Medium
-       - Low
-     - **Workflow**:
-       - Preprocessing: Includes handling missing values, encoding categorical features, and feature scaling.
-       - Modeling: Built using algorithms like Decision Trees, Gradient Boosting, or Support Vector Machines.
-       - Evaluation: Performance metrics include confusion matrix, accuracy, and ROC-AUC scores.
-- **Files**: The implementation details and training notebooks for these models are included in this folder.
 
-### 4. **LLM-based application**
+## Folder: `machine_learning_models`
+
+This folder contains two machine learning models designed to derive insights from counseling data:
+
+1. **Classification Model 1**: Predicts mental disorders based on counseling transcripts using NLP techniques.
+   - Classes: Bipolar Type-2, Depression, Normal, Bipolar Type-1.
+   - Workflow: Preprocessing (tokenization, text cleaning, TF-IDF/embeddings), modeling (Logistic Regression, Random Forest, Neural Networks), and evaluation (accuracy, precision, recall, F1-score).
+
+2. **Classification Model 2**: Predicts mood swings based on supervised learning.
+   - Classes: High, Medium, Low.
+   - Workflow: Preprocessing (handling missing values, feature encoding/scaling), modeling (Decision Trees, Gradient Boosting, SVM), and evaluation (confusion matrix, accuracy, ROC-AUC).
 
 
-### 5. Web Application - Mental Health Counseling and LLM Integration
+### 4 **LLM-Based Application - Mental Health Counselor Support**
+
+This application is an LLM-powered solution designed to assist mental health counselors by generating advice tailored to help their patients. The application leverages a fine-tuned version of the **tiiuae_falcon_7b** model to deliver contextually relevant and actionable insights.
+
+## Features
+
+- **Free-Text Input**: Accepts detailed descriptions from counselors about their patients' challenges and concerns.
+- **Generated Advice**: Produces actionable, empathetic, and insightful guidance on how to address the described mental health issues.
+- **Custom Fine-Tuning**: The application uses a fine-tuned version of the **tiiuae_falcon_7b** model, ensuring responses are specifically aligned with mental health support and counseling practices.
+
+
+
+### 5. **Web Application - Mental Health Counseling and LLM Integration**
 
 This web application is part of a larger project and focuses on providing personalized mental health assistance by leveraging a pre-trained large language model (LLM) and advanced similarity search techniques. The app combines user-friendly interfaces with powerful backend technologies to deliver relevant information and actionable insights for mental health challenges.
 
