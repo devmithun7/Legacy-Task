@@ -48,12 +48,23 @@ This repository contains the implementation of a project analyzing mental health
 ### 4. **LLM-based application**
 
 
-### 5. **Web Application**
-- **Description**: A web application integrates one of the following functionalities:
-  - Users can enter free-text describing a challenge and receive suggestions on how to address it using a pre-trained large language model (LLM).
-- **Deployment**: The application demonstrates practical use cases of the analysis and models.
+### Part 5: Web Application - Mental Health Counseling and LLM Integration
+
+This web application is part of a larger project and focuses on providing personalized mental health assistance by leveraging a pre-trained large language model (LLM) and advanced similarity search techniques. The app combines user-friendly interfaces with powerful backend technologies to deliver relevant information and actionable insights for mental health challenges.
+
+
+- **Interactive User Interface**: Built with **Streamlit**, enabling users to:
+  - Enter free-text descriptions of mental health challenges and receive tailored suggestions via an LLM.
+  - Search a database of mental health counseling data to retrieve relevant examples.
+  - Assess their current mental health state and receive advice on managing anxiety and depression.
+  - Query for medication suggestions based on symptoms.
+
+- **Similarity Search**: Implements **Retrieval-Augmented Generation (RAG)** using **Pinecone** vector databases with namespaces to efficiently retrieve and rank relevant information.
+
+- The application is fully containerized using **Docker**, enabling easy deployment across various platforms. It serves as a practical demonstration of how LLM-powered analysis and retrieval systems can be utilized to address mental health challenges.
 
 ---
+
 
 ## Technologies Used
 - **Data Profiling**: `pandas_profiling`, `y_dataprofiling`
