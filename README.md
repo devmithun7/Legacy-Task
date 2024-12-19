@@ -6,6 +6,7 @@ This repository contains the implementation of a project analyzing mental health
 
 ## Architecture Diagram
 
+![image](https://github.com/devmithun7/Legacy-Task/blob/main/application_architecture_-_ai_and_data_pipeline.png)
 
 
 
