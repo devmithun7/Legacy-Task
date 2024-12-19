@@ -17,7 +17,7 @@ This repository contains the implementation of a project analyzing mental health
   - Standardizing text and numeric fields
   - Visualizing trends and distributions
 - **Tools Used**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `ydata_profiling`
-- **Files**: The corresponding notebooks for these steps are available in the repository.
+- **Files**: The corresponding notebooks for these steps are available in the Airflow and Machine Learning Model folders.
 
 ### 3. **Machine Learning Models**
 - Folder: `machine_learning_models`
