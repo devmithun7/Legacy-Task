@@ -48,7 +48,7 @@ This repository contains the implementation of a project analyzing mental health
 ### 4. **LLM-based application**
 
 
-### Part 5: Web Application - Mental Health Counseling and LLM Integration
+### 5. Web Application - Mental Health Counseling and LLM Integration
 
 This web application is part of a larger project and focuses on providing personalized mental health assistance by leveraging a pre-trained large language model (LLM) and advanced similarity search techniques. The app combines user-friendly interfaces with powerful backend technologies to deliver relevant information and actionable insights for mental health challenges.
 
