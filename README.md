@@ -36,8 +36,6 @@ This folder contains two machine learning models designed to derive insights fro
 
 This application is an LLM-powered solution designed to assist mental health counselors by generating advice tailored to help their patients. The application leverages a fine-tuned version of the **tiiuae_falcon_7b** model to deliver contextually relevant and actionable insights.
 
-## Features
-
 - **Free-Text Input**: Accepts detailed descriptions from counselors about their patients' challenges and concerns.
 - **Generated Advice**: Produces actionable, empathetic, and insightful guidance on how to address the described mental health issues.
 - **Custom Fine-Tuning**: The application uses a fine-tuned version of the **tiiuae_falcon_7b** model, ensuring responses are specifically aligned with mental health support and counseling practices.
