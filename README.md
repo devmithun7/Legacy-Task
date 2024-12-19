@@ -8,7 +8,7 @@ This repository contains the implementation of a project analyzing mental health
 
 ### 1. **Data Profiling**
 - Folder: `data_profiling`
-- **Description**: This folder contains scripts and notebooks for profiling and understanding the dataset. Python tools like `pandas` EDA and `y_dataprofiling` have been used for detailed profiling to identify key data characteristics, outliers, and potential data quality issues.
+- **Description**: This folder contains scripts and notebooks for profiling and understanding the dataset. Python tools like `pandas` and `y_dataprofiling` have been used for detailed profiling to identify key data characteristics, outliers, and potential data quality issues.
 
 ### 2. **Data Cleaning and EDA**
 - **Description**: Comprehensive data cleaning and exploratory analysis have been performed, including:
