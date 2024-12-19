@@ -44,7 +44,7 @@ This application is an LLM-powered solution designed to assist mental health cou
 
 ### 5. **Web Application - Mental Health Counseling and LLM Integration**
 
-This web application is part of a larger project and focuses on providing personalized mental health assistance by leveraging a pre-trained large language model (LLM) and advanced similarity search techniques. The app combines user-friendly interfaces with powerful backend technologies to deliver relevant information and actionable insights for mental health challenges.
+This web application is part of a larger project and focuses on providing personalized mental health assistance by leveraging a pre-trained large language model (GPT-3.5 Turbo) and advanced similarity search techniques. The app combines user-friendly interfaces with powerful backend technologies to deliver relevant information and actionable insights for mental health challenges.
 
 
 - **Interactive User Interface**: Built with **Streamlit**, enabling users to:
