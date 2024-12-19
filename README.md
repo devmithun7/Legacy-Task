@@ -10,7 +10,7 @@ This repository contains the implementation of a project analyzing mental health
 - Folder: `data_profiling`
 - **Description**: This folder contains scripts and notebooks for profiling and understanding the dataset. Python tools like `pandas` and `y_dataprofiling` have been used for detailed profiling to identify key data characteristics, outliers, and potential data quality issues.
 
-### 2. **Data Cleaning and EDA**
+### 2. **Data Processing and EDA**
 - **Description**: Comprehensive data cleaning and exploratory analysis have been performed, including:
   - Handling missing values
   - Removing duplicates
@@ -22,18 +22,31 @@ This repository contains the implementation of a project analyzing mental health
 ### 3. **Machine Learning Models**
 - Folder: `machine_learning_models`
 - **Description**: Two machine learning models were built to infer useful insights from the dataset:
-  1. **Classification Model 1**: Predicts the mental disorder of a person based on counseling transcripts.
+  1. **Classification Model 1**: Predicts the mental disorder of a person based on counseling transcripts using advanced natural language processing (NLP) techniques and machine learning algorithms.
      - Classes:
        - Bipolar Type-2
        - Depression
        - Normal
        - Bipolar Type-1
-  2. **Classification Model 2**: Predicts the mood swings of a person.
+     - **Workflow**:
+       - Preprocessing: Tokenization, text cleaning, and feature extraction (TF-IDF or embeddings).
+       - Modeling: Trained using algorithms such as Logistic Regression, Random Forest, or Neural Networks.
+       - Evaluation: Performance metrics include accuracy, precision, recall, and F1-score.
+      
+         
+  2. **Classification Model 2**: Predicts the mood swings of a person using supervised machine learning techniques.
      - Classes:
        - High
        - Medium
        - Low
+     - **Workflow**:
+       - Preprocessing: Includes handling missing values, encoding categorical features, and feature scaling.
+       - Modeling: Built using algorithms like Decision Trees, Gradient Boosting, or Support Vector Machines.
+       - Evaluation: Performance metrics include confusion matrix, accuracy, and ROC-AUC scores.
 - **Files**: The implementation details and training notebooks for these models are included in this folder.
+
+
+
 
 ### 4. **Web Application**
 - **Description**: A web application integrates one of the following functionalities:
