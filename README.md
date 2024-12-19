@@ -45,10 +45,10 @@ This repository contains the implementation of a project analyzing mental health
        - Evaluation: Performance metrics include confusion matrix, accuracy, and ROC-AUC scores.
 - **Files**: The implementation details and training notebooks for these models are included in this folder.
 
+### 4. **LLM-based application**
 
 
-
-### 4. **Web Application**
+### 5. **Web Application**
 - **Description**: A web application integrates one of the following functionalities:
   - Users can enter free-text describing a challenge and receive suggestions on how to address it using a pre-trained large language model (LLM).
 - **Deployment**: The application demonstrates practical use cases of the analysis and models.
@@ -57,11 +57,11 @@ This repository contains the implementation of a project analyzing mental health
 
 ## Technologies Used
 - **Data Profiling**: `pandas_profiling`, `y_dataprofiling`
-- **EDA and Data Cleaning**: Python (`pandas`, `matplotlib`, `seaborn`)
+- **EDA and Data Cleaning**: `Python` (`pandas`, `matplotlib`, `seaborn`), `Airflow`, `NLTK`
 - **Machine Learning**: `scikit-learn`, `TensorFlow`/`PyTorch`
-- **Web Application**: Streamlit
-- **LLM Integration**: OpenAI API (within budget constraints)
-
+- **Databases and Storage**: `Snowflake`, `S3`, `Pinecone`
+- **Web Application**: `Streamlit`, `Docker`, `AWS`
+- **LLM Integration**: `Open AI`, `tiiuae-falcon-7b`
 ---
 
 
