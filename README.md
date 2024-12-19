@@ -21,8 +21,6 @@ This repository contains the implementation of a project analyzing mental health
 
 ### 3. **Machine Learning Models**
 
-## Folder: `machine_learning_models`
-
 This folder contains two machine learning models designed to derive insights from counseling data:
 
 1. **Classification Model 1**: Predicts mental disorders based on counseling transcripts using NLP techniques.
