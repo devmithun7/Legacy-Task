@@ -2,14 +2,12 @@
 
 This repository contains the implementation of a project analyzing mental health counseling transcripts. The primary goals of this project are to profile and clean the dataset, perform exploratory data analysis (EDA), build predictive machine learning models, and create a web application for practical use. Below is an overview of the repository's contents and functionalities.
 
+- Application Link: http://3.88.118.67:8501/
 ---
 
 ## Architecture Diagram
 
 <img src="https://github.com/devmithun7/Legacy-Task/blob/main/architecture_diagram_task.png" alt="Architecture Diagram" width="600"/>
-
-
-
 
 ---
 
